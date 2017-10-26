@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="questionCellBase" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-border-color: #00673E; -fx-border-radius: 50; -fx-border-width: 5; -fx-background-radius: 50;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox fx:id="answersVBox" maxWidth="1.7976931348623157E308" style="-fx-background-color: white; -fx-background-radius: 20;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="2.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" />
+   </padding>
+   <top>
+      <Label fx:id="questionLabel" contentDisplay="RIGHT" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="1.0" style="-fx-background-color: #00673E; -fx-background-radius: 50;" textFill="#94c947" wrapText="true" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+         <padding>
+            <Insets bottom="4.0" left="20.0" right="10.0" top="4.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="15.0" right="15.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+</BorderPane>

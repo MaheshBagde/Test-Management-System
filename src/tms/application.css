@@ -1,0 +1,137 @@
+#startButton, #saveButton, #cancelButton, #OpenFileButton, #downloadButton, #changeViewButton, 
+#addCourseSaveButton, #addCourseCancelButton, #addTopicSaveButton, #addTopicCancelButton {
+    -fx-padding: 0 5 0 5;
+}
+
+.split-pane-divider {
+    -fx-padding: 0 4 0 4;
+    -fx-background-color:  black;
+    -fx-background-insets: 0;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: white;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: #00673E;
+    -fx-background-radius: 20em;
+    -fx-padding:6px;
+}
+
+.scroll-bar:horizontal .track , .scroll-bar:vertical .track {
+    -fx-background-color: #94C947;
+    -fx-background-radius: 20em;
+}
+
+.scroll-bar:horizontal .thumb, .scroll-bar:vertical .thumb {
+    -fx-background-color: #00673E;
+    -fx-background-radius: 20em;
+    -fx-background-insets: 5, 0, 0;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.list-cell:odd, 
+.list-cell:even {
+    -fx-background-color: transparent;
+}
+
+.list-cell:filled:selected #courseLabel {
+    -fx-font-size: 35px;
+    -fx-background-color: #94C947;
+    -fx-background-radius: 200;
+    -fx-text-fill: #00673E;
+}
+
+.list-cell:filled:selected #topicsLabel, 
+.list-cell:filled:selected #topicCountLabel {
+    -fx-text-fill: #94C947;
+}
+
+.list-cell:filled:selected #topicNameLabel, 
+.list-cell:filled:selected #questionsLabel, 
+.list-cell:filled:selected #questionCountLabel {
+    -fx-text-fill: #00673E;
+}
+
+#courseCellBase {
+    -fx-background-color: #00673E;
+}
+
+#courseCellBase:hover {
+    -fx-background-color: #94C947;
+}
+
+#courseCellBase:hover #courseLabel, 
+#courseCellBase:hover #topicsLabel, 
+#courseCellBase:hover #topicCountLabel {
+    -fx-text-fill: #00673E;
+}
+
+#topicCellBase {
+    -fx-background-color: #94C947;
+}
+
+#topicCellBase:hover {
+    -fx-background-color: #00673E;
+}
+
+#topicCellBase:hover #topicNameLabel, 
+#topicCellBase:hover #questionsLabel, 
+#topicCellBase:hover #questionCountLabel {
+    -fx-text-fill: #94C947;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+#typeTextFlow:hover #typeText {
+    -fx-font-size: 60px;
+}
+
+#termTextFlow:hover #termText {
+    -fx-font-size: 26px;
+}
+
+#yearTextFlow:hover #yearText {
+    -fx-underline: true;
+}
+
+#addCourseIconButton, #addTopicIconButton {
+    -fx-padding: 0 0 0 0;
+}
+
+.text-input {
+    -fx-text-fill: #94C947;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+#menuBase {
+    -fx-background-color: rgba(148, 201, 71, 0.5);
+}
+
+#courseTopicButton, #importQuestionsButton, #viewTestBankButton, #createTestButton, #closeApplicationButton {
+    -fx-background-color:  #94C947;
+    -fx-background-radius: 200;
+    -fx-border-color:  #00673E;
+    -fx-border-radius: 200;
+    -fx-border-width: 3;
+}
+
+#courseTopicButton:hover, #importQuestionsButton:hover, #viewTestBankButton:hover, #createTestButton:hover, #closeApplicationButton:hover {
+    -fx-border-width: 7;
+}
+
+#closeApplicationButton:hover {
+    -fx-border-color:  red;
+}
+
+#questionCellBase {
+    -fx-background-color:  white;
+}
+
+#questionCellBase:hover {
+    -fx-background-color:  #94C947;
+}
+

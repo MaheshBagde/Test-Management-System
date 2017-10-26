@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="courseCellBase" alignment="CENTER_LEFT" maxWidth="1.7976931348623157E308" style="-fx-background-radius: 100;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <FontAwesomeIconView fill="#94c947" glyphName="BOOK" size="30">
+         <HBox.margin>
+            <Insets />
+         </HBox.margin></FontAwesomeIconView>
+      <Label fx:id="courseLabel" textFill="#94c947">
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+         <font>
+            <Font name="SansSerif Regular" size="35.0" />
+         </font>
+         <HBox.margin>
+            <Insets left="10.0" />
+         </HBox.margin></Label>
+      <Region maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS" />
+      <Label fx:id="topicsLabel" text="topics : " textFill="#94c947">
+         <font>
+            <Font name="Arial Narrow Italic" size="15.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="topicCountLabel" textFill="#94c947">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font></Label>
+   </children>
+   <padding>
+      <Insets bottom="2.0" left="15.0" right="15.0" top="2.0" />
+   </padding>
+</HBox>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="20.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tms.HomeController">
+   <children>
+      <Label fx:id="logoLabel" alignment="CENTER" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Test &#10;Management &#10;System" textFill="#00673e">
+         <font>
+            <Font name="Arial Narrow Bold" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>

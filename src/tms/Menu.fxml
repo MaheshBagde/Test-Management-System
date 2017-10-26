@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="menuBase" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0" style="-fx-background-radius: 60;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tms.MenuController">
+   <children>
+      <JFXButton fx:id="courseTopicButton" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" graphicTextGap="0.0" layoutX="50.0" layoutY="30.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#loadCourseAndTopicScene" prefHeight="135.0" prefWidth="135.0" ripplerFill="WHITE" text="Courses &amp; Topics" textAlignment="CENTER" textFill="#00673e" wrapText="true">
+         <graphic>
+            <FontAwesomeIconView fill="#00673e" glyphName="BOOK" size="60" />
+         </graphic>
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="importQuestionsButton" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" graphicTextGap="0.0" layoutX="50.0" layoutY="30.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#loadImportQuestionsScene" prefHeight="135.0" prefWidth="135.0" ripplerFill="WHITE" text="Import Q's" textAlignment="CENTER" textFill="#00673e" wrapText="true">
+         <graphic>
+            <FontAwesomeIconView fill="#00673e" glyphName="UPLOAD" size="60" />
+         </graphic>
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="viewTestBankButton" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" graphicTextGap="0.0" layoutX="50.0" layoutY="378.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#loadViewTestBankScene" prefHeight="135.0" prefWidth="135.0" ripplerFill="WHITE" text="Test Bank" textAlignment="CENTER" textFill="#00673e" wrapText="true">
+         <graphic>
+            <FontAwesomeIconView fill="#00673e" glyphName="QUESTION_CIRCLE" size="60" />
+         </graphic>
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="createTestButton" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" graphicTextGap="0.0" layoutX="50.0" layoutY="204.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#loadCreateTestScene" prefHeight="135.0" prefWidth="135.0" ripplerFill="WHITE" text="Create Test" textAlignment="CENTER" textFill="#00673e" wrapText="true">
+         <graphic>
+            <FontAwesomeIconView fill="#00673e" glyphName="LIST_ALT" size="60" />
+         </graphic>
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="closeApplicationButton" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" graphicTextGap="0.0" layoutX="50.0" layoutY="495.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#closeApplication" prefHeight="85.0" prefWidth="85.0" ripplerFill="WHITE" textAlignment="CENTER" textFill="#00673e" wrapText="true">
+         <graphic>
+            <FontAwesomeIconView fill="#00673e" glyphName="TIMES_CIRCLE" size="60" />
+         </graphic>
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
